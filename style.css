@@ -33,16 +33,34 @@ nav ul
 }
 
 
-@media only screen and (max-width: 800px){
-    .head {
-        width: 90%;
-        height:90%;
-    }
+html {
+    max-width: 800px;
+    margin: 0px;
+  }
     
-}
+
 
 aside ul
 {
  width: 30%;
  float: right;
 }
+
+
+.unordered_list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+
+  .artical_headings_padding {
+    padding-top: 50px;
+  }
+
+
+
+  .c-cyan {
+    border: 3px solid var(--c-cyan);
+  }
+
+

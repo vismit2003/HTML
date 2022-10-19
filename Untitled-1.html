@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -27,21 +26,21 @@
       --c-green: rgb(133, 153, 0);
     }
 
-    /* 11 */
+ 
     html {
       max-width: 800px;
       margin: 0px;
     }
 
-    /* 2 ,7*/
+    
     header {
-      font-size: 150%;
-      color: var(--c-yellow) !important;
+      font-size: 200%;
+      color: var(--c-yellow);
       text-align: center;
 
     }
 
-    /* 1 */
+    
     #c-background-color {
       background-color: var(--c-background-color);
     }
@@ -50,58 +49,60 @@
       background-color: var(--c-background-highlights);
     }
 
-    /* 3 */
     .base-font-color {
       color: var(--base-font-color);
     }
 
-    /* 5 */
+    
     .nav_links:hover {
       color: var(--c-orange);
     }
 
-    /* 6 */
+    
     .c-cyan {
       border: 3px solid var(--c-cyan);
     }
 
-    /* 8,9 */
+   
     .unordered_list {
       display: flex;
       justify-content: space-around;
       list-style: none;
     }
 
-    /* 10 */
+  
     .c-green {
       color: var(--c-green);
     }
 
-   
+    
+    .c-red {
+      color: var(--c-red);
+    }
 
-    /* 10 */
+    
     .c-red:hover {
       color: var(--c-blue);
     }
 
-    /* 12 */
+    
     .artical_headings_padding {
-      padding-top: 50px;
+      padding-top: 40px;
     }
 
-    /* 13 */
+   
     .mainpart {
       display: flex;
     }
     footer{
-      text-align: center;
+      text-align: left;
     }
   </style>
 
 </head>
 
 <body id="c-background-color">
-  <!-- Here is our main header that is used across all the pages of our website -->
+  
 
   <header class="c-background-highlights base-font-color">
     <h1>Header</h1>
@@ -115,19 +116,18 @@
       <li><a href="#" class="nav_links">Contact</a></li>
     </ul>
 
-    <!-- A Search form is another common non-linear way to navigate through a website. -->
-
+   
     <form>
       <input type="search" name="q" placeholder="Search query">
       <input type="submit" value="Go!">
     </form>
   </nav>
 
-  <!-- Here is our page's main content -->
+  
   <main class="base-font-color mainpart">
 
     <div class="leftpart">
-      <!-- It contains an article -->
+      
       <article>
 
 
@@ -163,8 +163,8 @@
     </div>
 
     <div class="rightpart">
-      <!-- the aside content can also be nested within the main content -->
-      <aside class="c-green">
+      
+      <aside class="c-red">
         <h2>Related</h2>
 
         <ul>
@@ -178,7 +178,7 @@
     </div>
   </main>
 
-  <!-- And here is our main footer that is used across all the pages of our website -->
+  
 
   <footer class="c-background-highlights base-font-color">
     <p>©Copyright 2050 by nobody. All rights reversed.</p>
